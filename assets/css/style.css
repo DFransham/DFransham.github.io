@@ -8,9 +8,6 @@
  */
 
 
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -112,9 +109,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -156,8 +150,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
 
 
 
@@ -294,8 +286,6 @@ article.active {
 
 
 
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -305,8 +295,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
 
 
 
@@ -448,8 +436,6 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -489,8 +475,6 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -505,7 +489,6 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
-
 
 
 /**
@@ -665,9 +648,6 @@ main {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -800,7 +780,7 @@ main {
 .project-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: var(--transition-1);
 }
 
@@ -822,9 +802,6 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -910,8 +887,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
 
 
 
@@ -1022,6 +997,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+
+
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1032,7 +1009,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 @media (min-width: 450px) {
 
-
   /**
    * #PORTFOLIO, ART 
    */
@@ -1041,9 +1017,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .art-samples-box { height: auto; }
 
 }
-
-
-
 
 
 /**
@@ -1071,7 +1044,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
 
 
   /**
@@ -1102,7 +1074,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
   /**
    * #MAIN
    */
@@ -1111,7 +1082,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-top: 60px;
     margin-bottom: 100px;
   }
-
 
 
   /**
@@ -1158,7 +1128,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
   /**
    * #NAVBAR
    */
@@ -1168,7 +1137,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
-
 
 
   /**
@@ -1214,7 +1182,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
 
-
   /**
    * #PORTFOLIO, ART
    */
@@ -1224,7 +1191,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .art-samples-list { gap: 30px; }
 
   .art-content { padding: 25px; }
-
 
 
   /**
@@ -1253,8 +1219,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .form-btn ion-icon { font-size: 18px; }
 
 }
-
-
 
 
 
@@ -1372,7 +1336,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
   /**
    * REUSED STYLE
    */
@@ -1381,7 +1344,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 950px;
     box-shadow: var(--shadow-5);
   }
-
 
 
   /**
@@ -1395,7 +1357,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin: auto;
   }
-
 
 
   /**
@@ -1422,7 +1383,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-link { font-weight: var(--fw-500); }
 
 
-
   /**
    * ABOUT
    */
@@ -1442,17 +1402,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-list { grid-template-columns: repeat(3, 1fr); }
 
 
-
   /**
    * ART
    */
 
-  .art-samples-box { height: 230px; }
+  .art-samples-box { height: 400px; }
 
 }
-
-
-
 
 
 /**
@@ -1482,7 +1438,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   body::-webkit-scrollbar-button { height: 60px; }
 
 
-
   /**
    * REUSED STYLE
    */
@@ -1490,7 +1445,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article { width: auto; }
 
   article { min-height: 100%; }
-
 
 
   /**
@@ -1511,7 +1465,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 75%;
     margin: 0;
   }
-
 
 
   /**
@@ -1565,7 +1518,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
-
 
 
   /**
